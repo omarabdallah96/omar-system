@@ -1,14 +1,7 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAlwKsg4-W1ygjff9nad7ea4P_P9Kl1-Qo",
-  authDomain: "nayef-432fd.firebaseapp.com",
-  databaseURL: "https://nayef-432fd-default-rtdb.firebaseio.com",
-  projectId: "nayef-432fd",
-  storageBucket: "nayef-432fd.appspot.com",
-  messagingSenderId: "203699411680",
-  appId: "1:203699411680:web:a1bde85a790022b00f0e85",
-  measurementId: "G-Z6NBNPWQ5Q"
+
 };
 
 const app = firebase.initializeApp(firebaseConfig);
